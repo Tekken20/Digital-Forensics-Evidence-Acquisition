@@ -97,7 +97,7 @@ Compare MD5 values:
 cat /home/student/forensics/original_md5.txt
 cat /home/student/forensics/image_md5.txt
 ```
-
+![MD5 Output](md5.png)
 Generate SHA-256 hash of original disk:
 
 ```
@@ -109,14 +109,14 @@ Generate SHA-256 hash of forensic image:
 ```
 sha256sum /home/student/forensics/craig_tucker_desktop.img > /home/student/forensics/image_sha256.txt
 ```
-![MD5 Output](md5.png)
+
 Compare SHA-256 values:
 
 ```
 cat /home/student/forensics/original_sha256.txt
 cat /home/student/forensics/image_sha256.txt
 ```
-
+![SHA-256 Output](sha-256.png)
 Matching hash values confirmed image integrity.
 
 ---
@@ -134,7 +134,7 @@ Transfer image using SCP from Windows PowerShell:
 ```
 scp student@10.31.2.227:/home/student/forensics/craig_tucker_desktop.img C:\Cases\
 ```
-
+![SCP Transfer](SCP.png)
 ---
 
 ### 6️⃣ Verify Integrity After Transfer (Windows)
@@ -146,7 +146,7 @@ Get-FileHash -Algorithm MD5 C:\Cases\craig_tucker_desktop.img
 ```
 
 Confirmed Windows MD5 hash matched Kali MD5 hash.
-
+![Windows Hash Verification](get-file.png)
 ---
 
 ### 7️⃣ Documentation
