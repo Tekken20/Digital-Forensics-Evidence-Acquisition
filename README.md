@@ -129,6 +129,12 @@ Identify Kali IP address:
 ip addr
 ```
 
+Created a destination directory on the Windows 11 system to store the forensic image:
+
+```
+mkdir C:\Cases
+```
+
 Transfer image using SCP from Windows PowerShell:
 
 ```
@@ -152,7 +158,7 @@ Confirmed Windows MD5 hash matched Kali MD5 hash.
 ### 7️⃣ Documentation
 
 Recorded disk details, acquisition timestamps, hash values, and verification results to preserve forensic integrity and support chain-of-custody requirements.
-
+![Documentation Screenshot](DOC1.png)
 ---
 
 ## 🧠 Why This Matters
