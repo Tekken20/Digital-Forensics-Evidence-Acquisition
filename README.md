@@ -74,7 +74,7 @@ Perform sector-level imaging:
 ```
 sudo dd if=/dev/sdb of=/home/student/forensics/craig_tucker_desktop.img bs=4M status=progress
 ```
-
+![dd Imaging Process](sudo-dd.png)
 ---
 
 ### 4️⃣ Hash Verification (Kali Linux)
@@ -109,7 +109,7 @@ Generate SHA-256 hash of forensic image:
 ```
 sha256sum /home/student/forensics/craig_tucker_desktop.img > /home/student/forensics/image_sha256.txt
 ```
-
+![MD5 Output](md5.png)
 Compare SHA-256 values:
 
 ```
