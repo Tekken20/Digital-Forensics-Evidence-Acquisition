@@ -22,13 +22,13 @@ List attached disks:
 ```
 lsblk
 ```
-
+![lsblk Output](lsblk.png)
 View detailed disk information:
 
 ```
 sudo fdisk -l /dev/sdb
 ```
-
+![Disk Details](7sudo.png)
 Confirmed `/dev/sdb` was the evidence disk and `/dev/sda` was the system disk.
 
 ---
