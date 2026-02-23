@@ -58,7 +58,7 @@ Verify read-only status:
 ```
 sudo hdparm -r /dev/sdb
 ```
-
+![Read Only Enabled](readonly-1.png)
 ---
 
 ### 3️⃣ Create Forensic Image
